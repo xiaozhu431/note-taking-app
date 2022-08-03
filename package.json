@@ -1,8 +1,10 @@
 {
   "name": "notes-app",
   "version": "1.0.0",
+  "description": "A test app for interviewee",
+  "author": "Jerry Tan",
   "scripts": {
-    "develop": "vite",
+    "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
