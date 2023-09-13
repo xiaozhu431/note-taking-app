@@ -18,37 +18,35 @@ Current Features
 
 *Prerequisite*
 
-- Have Node.js installed (suggest v16.x)
-- Have [pnpm](https://pnpm.io/installation) installed globally 
+- Install Node.js (suggest v18+)
+- Install [pnpm](https://pnpm.io/installation) globally 
 
 If you are Github user, just folk this repository and start to work on it.
 
 If you are not a Github user, clone and download this repo and push to your flavor git host .
 
 1. Install all the packages by `pnpm install`
-3. Start the development by `pnpm run develop`
-4. Work on the task below 
+3. Start the development by `pnpm run dev`
+4. Work on the tasks described below
 
 > :warning: 请使用当前项目环境完成以下题目并提交个人仓库链接
 
 **Tasks**
 
-1. Fix the existing bugs happen to the app
+1. Fix the existing bugs happen to this note application
 2. Refactor this app to a React app with TypeScript
 3. Make sure the current feature is working fine after refactoring
-4. Improve the UI with better UX
-
-for example, you are feasible to something like
-- update the notebook layout
-- add SAVE button to save the changes
-- add DELETE button to delte the note
+4. Provide some improvements on the UI&UX
+i.e
+- in terms of layout: navbar, editor panel, preview panel
+- in terms of UX: adding confirmation/warning modal when user save/delete a note
 
 
 **Bonus Tasks**
  
-- Create a new button called `Import Notes`, which will allow user to import notes in batch
-- Create a new button called `Export Notes`, which will allow user to export all the notes from the local storage
-- Both the import and export files are in XML format
+- Create a new button called `Import Notes`, which allow user to import notes in batch
+- Create a new button called `Export Notes`, which allow user to export all the notes from the local storage
+- Import & export files can be in csv or xml format
 
 ## How to Submit Your Test
 Commit and push your latest your changes to public repository, and share your URL to us.

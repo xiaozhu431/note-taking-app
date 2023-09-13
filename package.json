@@ -1,7 +1,7 @@
 {
-  "name": "notes-app",
+  "name": "simple-notes-app",
   "version": "1.0.0",
-  "description": "A test app for interviewee",
+  "description": "interviewee test",
   "author": "Jerry Tan",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "4.7.4",
-    "vite": "3.0.4"
+    "typescript": "5.2.2",
+    "vite": "4.4.9"
   }
 }
